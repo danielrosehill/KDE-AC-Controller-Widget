@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kcfg xmlns="http://www.kde.org/standards/kcfg/1.0"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.kde.org/standards/kcfg/1.0
+                          http://www.kde.org/standards/kcfg/1.0/kcfg.xsd">
+    <kcfgfile name=""/>
+
+    <group name="General">
+        <entry name="haUrl" type="String">
+            <label>Home Assistant URL</label>
+            <default>http://10.0.0.3:8123</default>
+        </entry>
+
+        <entry name="haToken" type="String">
+            <label>Home Assistant Token</label>
+            <default></default>
+        </entry>
+
+        <entry name="entityId" type="String">
+            <label>Climate Entity ID</label>
+            <default>climate.office_ac</default>
+        </entry>
+
+        <entry name="refreshInterval" type="Int">
+            <label>Refresh Interval (seconds)</label>
+            <default>30</default>
+            <min>5</min>
+            <max>300</max>
+        </entry>
+    </group>
+</kcfg>

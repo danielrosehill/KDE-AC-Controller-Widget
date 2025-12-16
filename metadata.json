@@ -1,0 +1,21 @@
+{
+    "KPackageStructure": "Plasma/Applet",
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "daniel@danielrosehill.co.il",
+                "Name": "Daniel Rosehill"
+            }
+        ],
+        "Category": "System Information",
+        "Description": "Control your Home Assistant air conditioner from the system tray",
+        "Icon": "preferences-system-power-management",
+        "Id": "com.danielrosehill.ac-controller",
+        "License": "GPL-3.0",
+        "Name": "AC Controller",
+        "Version": "1.0.0",
+        "Website": "https://danielrosehill.com"
+    },
+    "X-Plasma-API-Minimum-Version": "6.0",
+    "X-Plasma-MainScript": "ui/main.qml"
+}

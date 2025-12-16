@@ -1,0 +1,22 @@
+# Environment files with tokens
+.env
+
+# KDE/Qt
+*.autosave
+*.user
+*~
+
+# Build artifacts
+*.plasmoid
+build/
+dist/
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
