@@ -29,6 +29,24 @@ A KDE Plasma 6 widget for controlling your Home Assistant air conditioner direct
 
 3. The script will automatically install the widget to your local Plasma widgets directory
 
+### Updating the Widget
+
+To update to the latest version:
+
+```bash
+./update.sh
+```
+
+This will remove the old version and install the new one while preserving your configuration settings.
+
+### Uninstalling the Widget
+
+To completely remove the widget:
+
+```bash
+./uninstall.sh
+```
+
 ### Method 2: Manual Installation
 
 1. Create the package directory structure
