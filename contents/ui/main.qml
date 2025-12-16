@@ -23,7 +23,7 @@ PlasmoidItem {
     property var hvacModes: []
     property real currentTemperature: 0
     property real targetTemperature: 22
-    property date lastUpdate: null
+    property var lastUpdate: null
 
     // UI Components
     compactRepresentation: CompactRepresentation {
